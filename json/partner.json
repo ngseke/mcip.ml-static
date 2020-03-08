@@ -183,5 +183,12 @@
     "facebookId": 424475094349874,
     "schoolName": "逢甲大學",
     "area": "central"
+  },
+  {
+    "name": "世新新弦獎",
+    "link": "https://www.facebook.com/shu.guitar",
+    "facebookId": 388915071317,
+    "schoolName": "世新大學",
+    "area": "north"
   }
 ]
