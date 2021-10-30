@@ -190,5 +190,12 @@
     "facebookId": 388915071317,
     "schoolName": "世新大學",
     "area": "north"
+  },
+  {
+    "name": "暨南小暨盃",
+    "link": "https://www.facebook.com/NCNUXiaoJiBei/",
+    "facebookId": 1422670517963800,
+    "schoolName": "暨南大學",
+    "area": "central"
   }
 ]
