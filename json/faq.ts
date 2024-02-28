@@ -3,6 +3,7 @@ import { type FaqGroups } from './faqSchema'
 
 export const faq = [
   {
+    bad: 123,
     title: '參賽相關',
     content: [
       {
