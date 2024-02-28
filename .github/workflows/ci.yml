@@ -3,14 +3,14 @@ name: CI
 on:
   push:
     branches:
-      - master
+      - dev
 
   pull_request:
     branches:
-      - master
+      - dev
 
 jobs:
-  test:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -27,5 +27,12 @@ jobs:
       - name: Install Dependencies
         run: pnpm i
 
-      - name: Run Test
-        run: pnpm run test
+      - name: Build
+        run: pnpm run build
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4.2.5
+        with:
+          branch: master
+          folder: dist
+          single-commit: true

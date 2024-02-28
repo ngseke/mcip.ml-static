@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "ts-node ./scripts/validateJson.ts",
-    "lint": "npx eslint . --ext .ts,.js,.cjs",
-    "lint:fix": "npx eslint --fix . --ext .ts,.js,.cjs"
+    "build": "ts-node ./scripts/build.ts",
+    "lint": "tsc --noEmit && npx eslint . --ext .ts,.js,.cjs",
+    "lint:fix": "tsc --noEmit && npx eslint --fix . --ext .ts,.js,.cjs"
   },
   "keywords": [],
   "author": "",
